@@ -1,14 +1,15 @@
 ### 4. 서버에서 연결을 끊어 소켓을 말소한다.
+블로그 참고 : https://young1403.tistory.com/80 
 
-![4way1.png](../static/images/4way1.png)
+![4way1.png](../static/images/남의영/4way1.png)
 
-![4way2.png](../static/images/4way2.png)
+![4way2.png](../static/images/남의영/4way2.png)
 
 - **TIME-WAIT란?**
 
-![4way3.png](../static/images/4way3.png)
+![4way3.png](../static/images/남의영/4way3.png)
 
-![4way4.png](../static/images/4way4.png)
+![4way4.png](../static/images/남의영/4way4.png)
 
     - 서버와 클라이언트가 연결된 상태에서 서버를 강제 종료를 하더라도
       4 way-handshake 과정을 거침 (time-wait를 100% 거침)
@@ -33,7 +34,7 @@
 - **[FIN+ACK] 패킷을 함께 보내는 이유?**
     - FIN 패킷을 보낼 때 ACK패킷을 함께 보내는 이유?
 
-      ![fin_ack.png](../static/images/fin_ack.png)
+      ![fin_ack.png](../static/images/남의영/fin_ack.png)
 
       위의 사진을 보면 server→client로 FIN패킷을 보낼때와 그 아래 client→server로 FIN패킷을 보낼 때 ACK 패킷이 함께 보내짐을 알 수 있음
 
@@ -45,7 +46,7 @@
 
 ### 5. IP와 이더넷의 패킷 송.수신 동작 (IP 프로토콜)
 
-![protocol.png](../static/images/protocol.png)
+![protocol.png](../static/images/남의영/protocol.png)
 
 ---
 

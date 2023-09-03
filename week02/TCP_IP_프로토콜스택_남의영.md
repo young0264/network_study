@@ -100,7 +100,7 @@
 
 - **TCP와 UDP는 각각 무엇이고 이들의 차이점에 대해서 알려주시고 각각 언제 사용하면 좋을지 알려주세요.**
 
-  ![tcp_udp_diff.png](../static/images/tcp_udp_diff.png)
+  ![tcp_udp_diff.png](../static/images/남의영/tcp_udp_diff.png)
 
     - **TCP**는 **연결형, 신뢰성** 전송 프로토콜 입니다. 연결 지향적 서비스를 제공하기 위해 데이터를 전송하기 전에 **3way handshaking을 하여** 두 호스트의 전송 계층 사이에 논리적 연결을 설립합니다. 신뢰성 있는 서비스를 제공하기 위해 **오류제어, 흐름제어, 혼잡제어 등을 실행합니다.** 신뢰성을 보장하기 위해서 header가 더 크고 속도가 비교적 느리다는 단점이 있습니다.
     - **UDP**는 **비연결형, 비신뢰성** 프로토콜로 **3-way handshake등의 세션 수립과정이 없습니다**. 또한 비신뢰성 프로토콜로 **흐름제어, 오류제어, 혼잡제어를 제공하지 않습니다.** 이러한 단순성 덕분에 적은양의 오버헤드를 갖고 수신여부를 확인하지 않아도 되어 속도가 빠릅니다.
@@ -113,11 +113,11 @@
 
   ### UDP HEADER
 
-  ![udp_header.png](../static/images/udp_header.png)
+  ![udp_header.png](../static/images/남의영/udp_header.png)
 
   ### TCP HEADER
 
-  ![tcp_header.png](../static/images/tcp_header.png)
+  ![tcp_header.png](../static/images/남의영/tcp_header.png)
 
 - TCP인지 UDP인지 확인하는 방법
 
