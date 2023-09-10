@@ -14,7 +14,6 @@
 ## 👨‍💻 스터디원
 | 이름 | GITHUB |
 | --- | --- |
-| 김지훈 | [@DevRunner21](https://github.com/DevRunner21) |
 | 남의영 | [@young0264](https://github.com/young0264) |
 | 이호석 | [@HiiWee](https://github.com/HiiWee)|
 
@@ -38,6 +37,11 @@
   - 스위칭 허브의 패킷 중계 동작
   - 라우터의 패킷 중계 동작
   - 라우터의 부가 기능
+- ### 5주차 : 액세스 회선과 프로바이더의 탐험
+  - ADSL 기술을 이용한 액세스 회선의 구조와 동작
+  - 광섬유를 이용한 액세스 회선(FTTH)
+  - 액세스 회선으로 이용하는 PPP와 터널링
+  - 프로바이더 
 
 ---
 ## ⏳스터디 Time_Table
